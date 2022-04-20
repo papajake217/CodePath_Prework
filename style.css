@@ -1,0 +1,154 @@
+/* a minimalist set of CSS resets */
+
+/* default to border-box */
+html {
+  box-sizing: border-box;
+  font-size: 16px;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+h1 {
+  font-family: Lucida Handwriting,sans-serif;
+  position: center;
+  padding: 0px 35%;
+  
+}
+
+
+/* adjust typography defaults */
+body {
+ background: rgb(168,167,190);
+background: linear-gradient(90deg, rgba(168,167,190,1) 0%, rgba(162,162,216,1) 24%, rgba(153,111,164,1) 51%, rgba(3,159,220,1) 83%, rgba(0,212,255,1) 100%);
+  color: white; 
+  margin: 1rem;
+  font-family: Comic Sans MS, sans-serif;
+  line-height: 1.5;
+}
+
+/* images and videos max out at full width */
+
+#strikeCounter{
+  width: 70%;
+  height: 70%;
+  position: relative;
+  padding: 15px;
+  left: 35%;
+  font-size: 60px;
+  color: black;
+  
+}
+
+
+button {
+  padding: 50px 180px;
+  border-radius: 10px;
+  
+}
+
+#startButton {
+  width: 50%;
+  height: 50%;
+  
+}
+
+#startBtn{
+  background-color: rgb(123, 227, 161);
+  background-image: url("https://cdn.glitch.global/e6b51d74-ec50-46fe-892f-73e8bba4422c/text-1650340338874.png?v=1650340354553");
+  background-position: center;
+  background-size: 140px;
+  background-repeat: no-repeat;
+  position: relative;
+  left: 38%;
+
+}
+
+#stopBtn{
+  background-color: rgb(227, 133, 123);
+    background-image: url("https://cdn.glitch.global/e6b51d74-ec50-46fe-892f-73e8bba4422c/text-1650340344358.png?v=1650340357579");
+
+   background-position: center;
+  background-size: 110px;
+  background-repeat: no-repeat;
+  position: relative;
+  left: 38%;
+}
+
+#gameButtonArea > button {
+  width:200px;
+  height:200px;
+  margin:2px;
+}
+
+.hidden {
+  display: none;
+}
+
+#button1 {
+    background: lightgreen;
+    background-repeat: no-repeat;
+
+  background-image: url("https://cdn.glitch.global/e6b51d74-ec50-46fe-892f-73e8bba4422c/images-removebg-preview.png?v=1650324225065");
+  background-position: center;
+    opacity: 0.5;
+  
+
+}
+
+#button2{
+  background: lightblue;
+    background-repeat: no-repeat;
+
+background-image: url("https://cdn.glitch.global/e6b51d74-ec50-46fe-892f-73e8bba4422c/download-removebg-preview.png?v=1650324304089");
+  background-position: center;
+  opacity: 0.5;
+  
+}
+
+#button3{
+    background-repeat: no-repeat;
+
+  background: pink;
+background-image: url("https://cdn.glitch.global/e6b51d74-ec50-46fe-892f-73e8bba4422c/download__1_-removebg-preview.png?v=1650324307006");
+  background-position: center;
+  
+  opacity: 0.5;
+  background-repeat: no-repeat;
+}
+
+
+#button4{
+    background-repeat: no-repeat;
+
+    background: lightyellow;
+  background-image: url("https://cdn.glitch.global/e6b51d74-ec50-46fe-892f-73e8bba4422c/dog-head-trans400web-dog-face-photography-11563236380iljupyopnh-removebg-preview.png?v=16503243095565" );
+  background-position: center;
+  background-size: 200px 200px;
+  opacity: 0.5;
+  background-repeat: no-repeat;
+  
+}
+
+
+#button1:active,#button1.lit {
+    
+    opacity: 1;
+
+}
+
+#button2:active,#button2.lit {
+   background-repeat: no-repeat;
+  opacity: 1;
+}
+
+#button3:active,#button3.lit {
+    background-repeat: no-repeat;
+  opacity: 1;
+}
+
+#button4:active,#button4.lit {
+    background-repeat: no-repeat;
+  opacity: 1;
+}

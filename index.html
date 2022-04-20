@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="icon" href="https://glitch.com/favicon.ico" />
+
+    <title>Simon Barks</title>
+
+    <!-- import the webpage's stylesheet -->
+    <link rel="stylesheet" href="/style.css" />
+
+    <!-- import the webpage's javascript file -->
+    <script src="/script.js" defer></script>
+  </head>
+  <body>
+    <!-- this is the start of content -->
+    <h1>
+            <img src = "https://cdn.glitch.global/e6b51d74-ec50-46fe-892f-73e8bba4422c/text-1650340212370.png?v=1650340221923">
+    </h1>
+    <p>
+    
+      
+    </p>
+    <div id = "startStop">
+    <button id="startBtn" onclick="startGame()"> </button>
+    <button id="stopBtn" class="hidden" onclick="stopGame()"> </button>
+  
+    </div>
+   
+    <div id="gameButtonArea">
+      <button id="button1" onmousedown="startTone(1)" onmouseup="stopTone()"
+onclick="guess(1)">   </button>
+      
+      <button id="button2" onmousedown="startTone(2)" onmouseup="stopTone()"
+onclick="guess(2)" > </button>
+      <button id="button3" onmousedown="startTone(3)" onmouseup="stopTone()"
+onclick="guess(3)"></button>
+      <button id="button4" onmousedown="startTone(4)" onmouseup="stopTone()"
+onclick="guess(4)"></button>
+    </div>
+    <div id = "strikeCounter">
+      
+    
+    <script src="script.js"></script> 
+       <p style="display:inline" >
+         <img src = "https://cdn.glitch.global/e6b51d74-ec50-46fe-892f-73e8bba4422c/text-1650343034205.png?v=1650343044447" width = "35%">
+            <span id="strikes"></span>
+
+
+    </p>
+      </div>
+  </body>
+</html>
