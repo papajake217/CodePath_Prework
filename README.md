@@ -39,6 +39,8 @@ The following **additional** features are implemented:
 - [X] Opacity change on button press
 - [X] Center title, start/stop button, and strike counter
 - [X] Gradient Background
+- [X] Strike (mistake) counter updates on every mistake
+- [X] Strike counter resets on new game (no refresh needed)
 
 
 ## Video Walkthrough (GIF)
