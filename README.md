@@ -6,7 +6,8 @@ Submitted by: **Jake Papaspiridakos**
 
 Time spent: **8** hours spent in total
 
-Link to project: https://glitch.com/edit/#!/crocus-discovered-page?path=index.html%3A1%3A0
+Link to project: https://glitch.com/edit/#!/crocus-discovered-page  
+
 
 ## Required Functionality
 
