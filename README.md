@@ -35,6 +35,7 @@ The following **optional** features are implemented:
 The following **additional** features are implemented:
 
 - [X] Dog Theme
+- [X] Dog barks for button sounds
 - [X] Custom text (Dog Font)
 - [X] Opacity change on button press
 - [X] Center title, start/stop button, and strike counter
