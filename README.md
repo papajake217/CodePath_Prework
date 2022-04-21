@@ -75,7 +75,7 @@ Stack Overflow
 
 ## Interview Recording URL Link
 
-[My 5-minute Interview Recording] https://www.loom.com/share/5e39c7217fba45d1ae4ba49a80b3ed04
+[My 5-minute Interview Recording] (https://www.loom.com/share/5e39c7217fba45d1ae4ba49a80b3ed04)
 
 
 ## License
